@@ -1,0 +1,26 @@
+@import url('http://fonts.googleapis.com/zcss2?family=Merriweather:ital,wght@0,700;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Ubuntu&display=swap');
+
+.container_1{
+    margin: auto 30%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.container_1 h1{
+    font-weight: 500;
+    margin: 20px auto;
+    margin-left: 0;
+}
+.container_1 p{
+    margin: auto ;
+    margin-left: 0;
+    line-height: 7.5mm;
+    text-align: justify;
+}
+@media(max-width:880px){
+    .container_1{
+    margin: auto 10%;
+    }
+}
